@@ -9,11 +9,14 @@
     <style>
         .hero-section {
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                        url('https://placehold.co/1200x400');
-            background-size: cover;
-            color: white;
+                        url('./images/logo.jpg');
+            background-size: cover;  /* Adjust the width and height percentage */
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;   
             padding: 100px 0;
         }
+
         .price-card {
             transition: transform 0.3s;
         }
@@ -63,7 +66,7 @@
 <body>
     <!-- Hero Section -->
     <section class="hero-section text-center">
-        <div class="container">
+        <div class="container" style="color: #FFD700;">
             <h1 class="display-4 fw-bold">Welcome to Lace-Fi</h1>
             <p class="lead">Your Affordable High-Speed Internet Solution</p>
         </div>
