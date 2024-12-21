@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lace-Fi - Affordable WiFi Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                        url('https://placehold.co/1200x400');
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+        }
+        .price-card {
+            transition: transform 0.3s;
+        }
+        .price-card:hover {
+            transform: translateY(-10px);
+        }
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+        .contact-section {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to Lace-Fi</h1>
+            <p class="lead">Your Affordable High-Speed Internet Solution</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Unbeatable Prices</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-5 mb-4">
+                <div class="card price-card h-100 shadow">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Weekly Plan</h3>
+                        <p class="original-price mb-0">Original: 350 KES/week</p>
+                        <p class="display-4 text-primary fw-bold">250 KES</p>
+                        <p class="text-success fw-bold">Save 100 KES!</p>
+                        <p class="card-text">Perfect for short-term usage</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="card price-card h-100 shadow">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Monthly Plan</h3>
+                        <p class="original-price mb-0">Original: 1000 KES/month</p>
+                        <p class="display-4 text-primary fw-bold">800 KES</p>
+                        <p class="text-success fw-bold">Save 200 KES!</p>
+                        <p class="card-text">Best value for regular users</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Why Choose Lace-Fi?</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <!-- <img src="https://placehold.co/200" alt="Speed" class="mb-3 rounded"> -->
+                        <img src="./images/speed.jpg" alt="Support" class="mb-3 rounded" style="width: 250px; height: 250px;">
+                        <h4>High Speed</h4>
+                        <p>Enjoy fast and reliable internet connection</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <!-- <img src="https://placehold.co/200" alt="Coverage" class="mb-3 rounded"> -->
+                        <img src="./images/wifi.jpeg" alt="Support" class="mb-3 rounded" style="width: 250px; height: 250px;">
+                        <h4>Great Coverage</h4>
+                        <p>Strong signal throughout your space</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="./images/24hr.avif" alt="Support" class="mb-3 rounded" style="width: 250px; height: 250px;">
+                        <h4>24/7 Support</h4>
+                        <p>We're always here to help</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Get Connected Today!</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4 class="mb-3">Contact Us</h4>
+                            <p class="mb-3">
+                                <i class="bi bi-telephone"></i>
+                                Call us at: 
+                                <a href="tel:+254702499923" class="text-decoration-none">+254 702 499 923</a> or 
+                                <a href="tel:+254111356318" class="text-decoration-none">+254 111 356 318</a>
+                            </p>                            
+                            <p>
+                                <i class="bi bi-whatsapp"></i>
+                                Chat with us on WhatsApp:
+                                <a href="https://wa.me/254770329788" class="btn btn-success">
+                                    Open WhatsApp
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
